@@ -28,12 +28,12 @@ printf("Enter the array\n");
 for(int i=0;i<n;i++)
 scanf("%d",&a[i]);
 large(a,n);
-t=a[l];
-a[l]=a[l2];
-a[l2]=t;
 small(a,n);
-t=a[s];
-a[s]=a[s2];
+t=a[l];
+a[l]=a[s];
+a[s]=t;
+t=a[l2];
+a[l2]=a[s2];
 a[s2]=t;
 printf("The new array is ");
 for(int i=0;i<n;i++)
