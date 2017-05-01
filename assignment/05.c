@@ -3,7 +3,7 @@ void main()
 {
 	char str[50],l[10],m,k,i,j=0,pos;
 	printf("Enter the line of text: ");
-	scanf("%[^\n]s",str);
+	scanf("%[^\n]",str);
 	printf("Enter substring to be deleted: ");
 	scanf("%s",l);
 	for(i=0;str[i]!='\0';++i)
