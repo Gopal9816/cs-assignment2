@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-	char str[50],l[10],m,k,i,j=0,pos;
+	char str[50],l[10],m,k,i,j=0;
 	printf("Enter the line of text: ");
 	scanf("%[^\n]s",str);
 	printf("Enter substring to be deleted: ");
