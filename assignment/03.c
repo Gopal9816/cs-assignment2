@@ -21,7 +21,7 @@ for(int i=0;i<n;i++)
 for(int j=0;j<n;j++)
 scanf("%d",&a[i][j]);
 
-s=IsUpper(a,n);
+s=isUpperTriangular(a,n);
 printf("\n%d\n",s);
 }
 
