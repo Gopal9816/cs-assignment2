@@ -22,7 +22,7 @@ scanf("%s",s);
 stringrev(s);
 for(int i=0;s[i]!='\0';i++)
 	if(s[i]!=b[i])
-	{c=0
+	{c=0;
 	break;}
 	else
 	c=1;	
